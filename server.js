@@ -46,19 +46,19 @@ request(options, function (error, response) {
 app.get("/autoinsurance", function (req, res) {
   var options = {
     'method': 'GET',
-    'url': 'https://login.microsoftonline.com/00c7bb1f-2bf9-4e47-b448-b16f47190b27/oauth2/token',
+    'url': 'https://login.microsoftonline.com/tentant/oauth2/token',
     'headers': {
       'Cookie': 'x-ms-gateway-slice=estsfd; stsservicecookie=estsfd; fpc=AganJvlgzsJAoSoa3tPbWDqtXf4iAQAAAK-CSdgOAAAA'
     },
     formData: {
-      'client_id': '64cc1dd2-624f-4a5c-936b-452473ed4769',
+      'client_id': '',
       'scope': 'openid',
-      'code': '46bb7cc0-001a-4885-9ef6-9aa3cf6b9249',
+      'code': '',
       'redirect_uri': 'http://localhost/5300',
       'grant_type': 'password',
-      'client_secret': 'ZZ45I7Xps3V-k4--3KDUf~yipCE.2Fm.Jz',
-      'username': 'aswathi@ittstar.com',
-      'password': 'AchuNithin2595@',
+      'client_secret': '',
+      'username': '',
+      'password': '',
       'resource': 'https://analysis.windows.net/powerbi/api'
     }
   };
@@ -72,19 +72,19 @@ app.get("/autoinsurance", function (req, res) {
   app.get("/telecom", function (req, res) {
     var options = {
       'method': 'GET',
-      'url': 'https://login.microsoftonline.com/00c7bb1f-2bf9-4e47-b448-b16f47190b27/oauth2/token',
+      'url': 'https://login.microsoftonline.com/tentant/oauth2/token',
       'headers': {
         'Cookie': 'x-ms-gateway-slice=estsfd; stsservicecookie=estsfd; fpc=AganJvlgzsJAoSoa3tPbWDqtXf4iAQAAAK-CSdgOAAAA'
       },
       formData: {
-        'client_id': '64cc1dd2-624f-4a5c-936b-452473ed4769',
+        'client_id': '',
         'scope': 'openid',
-        'code': '46bb7cc0-001a-4885-9ef6-9aa3cf6b9249',
+        'code': '',
         'redirect_uri': 'http://localhost/5300',
         'grant_type': 'password',
-        'client_secret': 'ZZ45I7Xps3V-k4--3KDUf~yipCE.2Fm.Jz',
-        'username': 'aswathi@ittstar.com',
-        'password': 'AchuNithin2595@',
+        'client_secret': '',
+        'username': '',
+        'password': '',
         'resource': 'https://analysis.windows.net/powerbi/api'
       }
     };
@@ -98,19 +98,18 @@ app.get("/autoinsurance", function (req, res) {
     app.get("/retail", function (req, res) {
       var options = {
         'method': 'GET',
-        'url': 'https://login.microsoftonline.com/00c7bb1f-2bf9-4e47-b448-b16f47190b27/oauth2/token',
+        'url': 'https://login.microsoftonline.com//oauth2/token',
         'headers': {
           'Cookie': 'x-ms-gateway-slice=estsfd; stsservicecookie=estsfd; fpc=AganJvlgzsJAoSoa3tPbWDqtXf4iAQAAAK-CSdgOAAAA'
         },
         formData: {
-          'client_id': '64cc1dd2-624f-4a5c-936b-452473ed4769',
           'scope': 'openid',
-          'code': '46bb7cc0-001a-4885-9ef6-9aa3cf6b9249',
+          'code': '',
           'redirect_uri': 'http://localhost/5300',
           'grant_type': 'password',
-          'client_secret': 'ZZ45I7Xps3V-k4--3KDUf~yipCE.2Fm.Jz',
-          'username': 'aswathi@ittstar.com',
-          'password': 'AchuNithin2595@',
+          'client_secret': '',
+          'username': '',
+          'password': '',
           'resource': 'https://analysis.windows.net/powerbi/api'
         }
       };
